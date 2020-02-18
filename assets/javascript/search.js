@@ -29,7 +29,7 @@ function jobSearch(myLocation, searchTerm) {
         dataType: 'jsonp',
         type: 'GET',
         timeout: 5000,
-        url: 'https://cors.now.sh/http://api.indeed.com/ads/apisearch'
+        url: 'https://api.indeed.com/ads/apisearch'
     })
     .done(function(searchTerm) {
     	jobs = [];
